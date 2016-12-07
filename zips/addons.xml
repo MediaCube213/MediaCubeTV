@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.cubetv" name="CUBE TV" version="0.1.4" provider-name="Mikey1234">
+<addon id="plugin.video.cubetv" name="CUBE TV" version="0.1.6" provider-name="Mikey1234">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.urlresolver" version="0.0.1"/>
@@ -15,7 +15,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.cubetvguide" name="CUBE TV Guide" version="0.0.3" provider-name="Rolica, XunityTalk">
+<addon id="plugin.video.cubetvguide" name="CUBE TV Guide" version="0.0.4" provider-name="Rolica, XunityTalk">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.simplejson" version="0.0.1"/>
