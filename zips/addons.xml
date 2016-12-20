@@ -15,7 +15,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.cubetvguide" name="CUBE TV Guide" version="0.0.6" provider-name="Rolica, XunityTalk">
+<addon id="plugin.video.cubetvguide" name="CUBE TV Guide" version="0.0.7" provider-name="Rolica, XunityTalk">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.simplejson" version="0.0.1"/>
