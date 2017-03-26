@@ -1,0 +1,9 @@
+--------------------------
+Rolica TV Guide - 1.0.1
+--------------------------
++ Added Delete Cache Option in settings
+
+--------------------------
+Rolica TV Guide - 1.0.0
+--------------------------
++ Initial Release
