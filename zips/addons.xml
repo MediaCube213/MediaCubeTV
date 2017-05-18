@@ -15,27 +15,30 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.cubetvguide" name="CUBE TV Guide" version="0.1.1" provider-name="Rolica, XunityTalk">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.simplejson" version="0.0.1"/>
-		<import addon="plugin.video.cubetv" version="0.0.1"/>
-	</requires>
-	<extension point="xbmc.python.script" library="addon.py">
-            <provides>video</provides>
+<addon id="plugin.video.cubetvguide" name="Cube TV Guide" version="2.0.5" provider-name="MediaCube">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.simplejson" version="0.0.1"/>
+        <import addon="script.module.requests" version="0.0.1" />
+        <import addon="script.module.dateutil" version="0.0.1" />
+        <import addon="script.module.pil" />
+       <import addon="plugin.video.cubetv" version="0.0.1"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+            <provides>video executable</provides>
     </extension>
     <extension point="xbmc.service" library="service.py" start="login"/>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">CUBE TV Guide allows you to combine your CUBE TV service with a fully working EPG</summary>
-		<description lang="en">CUBE TV Guide allows you to combine your CUBE TV service with a fully working EPG.[CR][CR][COLOR hotpink]You need to have an active subscription to[/COLOR] [COLOR dodgerblue]CUBE TV[/COLOR] [COLOR hotpink]and have the plugin already installed.[/COLOR]</description>
-		<disclaimer lang="en">CUBE TV Guide is based on the original TV Guide addon by twinther.</disclaimer>
+    <extension point="xbmc.addon.metadata">
+        <description lang="en">This is the Official TV Guide for the Cube TV premium streaming service.</description>
+        <disclaimer lang="en">Based on the original TV Guide addon by twinther, FTV Guide, Midraal's fork and the excellent Primaeval's latest fork.</disclaimer>
+        <summary lang="en_gb">You need an active subscription for Cube TV before using this guide.</summary>
 		<language></language>
-		<platform>all</platform>
-		<license>GPLv2</license>
-		<forum>http://rolica.co.uk/forum/</forum>
-		<source>https://github.com/bluezed/FTV-Guide-Repo</source>
-        <website></website>
-		<email></email>
-	</extension>
+        <platform>all</platform>
+        <license>GPLv2</license>
+        <forum>http://stvbguide.com/support/</forum>
+        <source>https://stvbguide.com</source>
+        <website>https://streamtvbox.club/</website>
+        <email>rolica@stvbguide.com</email>
+    </extension>
 </addon>
 </addons>
