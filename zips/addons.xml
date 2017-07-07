@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.mediacube3" name="Cube[COLOR ff0084ff]TV[/COLOR]" version="1.0.6" provider-name="Mediacube">
+<addon id="plugin.video.mediacube3" name="Cube[COLOR ff0084ff]TV[/COLOR]" version="1.0.7" provider-name="Mediacube">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common"/>
