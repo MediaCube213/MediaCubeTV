@@ -1,5 +1,5 @@
 <?xml version="2.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.mediacube3" name="Cube[COLOR ff0084ff]TV[/COLOR]" version="1.1.0" provider-name="Media Cube">
+<addon id="plugin.video.mediacube3" name="Cube[COLOR ff0084ff]TV[/COLOR]" version="1.1.1" provider-name="Media Cube">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common"/>
@@ -18,7 +18,7 @@
 
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Premium LIVE HD TV and Sports</summary>
-	<description lang="en">Mediacube</description>
+	<description lang="en">Media Cube</description>
     <platform>all</platform>
   </extension>
 </addon>
