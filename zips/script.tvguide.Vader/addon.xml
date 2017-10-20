@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.tvguide.Vader" name="Cube[COLOR ff0084ff]TV[/COLOR] Guide" version="1.4.22" provider-name="CubeTV">
+<addon id="script.tvguide.Vader" name="Cube[COLOR ff0084ff]TV[/COLOR] Guide" version="1.4.23" provider-name="CubeTV">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.simplejson" version="3.3.0"/>
